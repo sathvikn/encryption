@@ -75,7 +75,7 @@ while run == True:
         c = caesarCipher(message, c_shift)
         print(c.encrypt(c.alphabet))
     if method == "Vigenere":
-        v_shift = input("What letter should be \"A\"?")
+        v_shift = input("Input the key")
         v = vigenereCipher(message, v_shift)
         print(v.encryptVig())
     if method == "Onetime Pad":
